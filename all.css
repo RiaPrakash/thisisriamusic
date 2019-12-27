@@ -1,0 +1,92 @@
+/* BANNER */
+#banner {
+    height: 10px;
+    width: 100%;
+    background-attachment: scroll, fixed;
+    background-color: #666;
+    background-image: url("https://www.thisisriamusic.com/Assets/Global/overlay.png"), url("https://www.thisisriamusic.com/Assets/Global/banner.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    background-size: cover;
+    color: #fff;
+    padding: 12em 0 20em 0;
+    text-align: center;
+}
+
+/* IMAGE */
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* BUFFERS */
+.buffer { 
+    margin-top:20px; 
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* MENUBUTTON */
+/* Overwritten Bootstrap */
+.btn-secondary, .btn-secondary:active, 
+.btn-secondary:visited {
+    color: #DCDCDC !important;
+    background: none !important;
+    border: none !important;
+    
+}
+.btn-secondary:hover{
+    /* TODO: Ensure text is black upon hover */
+    color: black !important;
+    background-color:  #DCDCDC !important;
+}
+
+/* MAIN BACKGROUND */
+.mainback {
+    background-image: url("https://www.thisisriamusic.com/Assets/Global/mainback.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: scroll, fixed;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+}
+
+/* FONT */
+p {
+    font-family: "Times New Roman";
+    color: #DCDCDC;
+}
+
+/* ICONS */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* NAVIGATION */
+.navigation {
+    height: 60px; 
+    position: fixed; 
+    top:0; 
+    /* To bring to top */
+    z-index: 9999;
+}
+
+/* ----------------- GALLERY ----------------- */
+/* FLUID IMG */ 
+.img-fluid{
+    margin-top:5px; 
+    margin-bottom: 5px;
+}
+.img{
+    margin-top:5px; 
+    margin-bottom: 5px;
+}
